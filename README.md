@@ -1,4 +1,4 @@
-I am working on lab3 
+# Campus Space Project 
 Sample data: data/sample/campus_spaces.csv.
 Folder roles: scripts/ for code, data/sample/ for data, docs/ for documentation, and outputs/ for generated results.
 Rscript scripts/summarize_spaces.R data/sample/campus_spaces.csv
@@ -8,7 +8,7 @@ The script prints its summary in the terminal and does not create a result file.
 Run this command from the repository root:
 
 ```bash
-Rscript scripts/summarize_spaces.R data/sample/campus_spaces
+Rscript scripts/summarize_spaces.R data/sample/campus_spaces.csv
 ```
 ## Purpose
 
@@ -31,4 +31,8 @@ Run the command shown above from the repository root, campus-space-project.
 - Occupancy rate: 77.0%
 - Busiest observed space: S103
 
+
+## Data dictionary
+
+[View the data dictionary](docs/data_dictionary.md)
 
