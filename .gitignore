@@ -1,0 +1,18 @@
+# Local credentials used in this example
+*.env
+.Renviron
+# Downloaded data and generated results
+/data/raw/
+/outputs/
+/cache/
+*.log
+# Local R session and operating-system files
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+Thumbs.db
+# Files
+local_notes.txt
+analysis_run.log
+
